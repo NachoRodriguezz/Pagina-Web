@@ -1,0 +1,16 @@
+.saludo {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    border: 5px solid;
+    border-style: groove;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2rem;
+    background-color: aliceblue;
+}
+
+.fondo {
+    background-image: url("IMG/edificios.png");
+    background-size: cover;
+}
