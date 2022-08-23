@@ -1,6 +1,6 @@
 .saludo {
     text-align: center;
-    width: 200px;
+    width: 400px;
     margin: 0 auto;
     border: 5px solid;
     border-style: groove;
@@ -11,7 +11,7 @@
 }
 
 .fondo {
-    background-image: url("IMG/edificios.png");
+    background-image: url("IMG/edificios3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: azure;
