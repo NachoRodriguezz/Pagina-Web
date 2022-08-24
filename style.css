@@ -12,7 +12,7 @@
 
 .fondo {
 /*     background-image: url("IMG/edificios.png"); */
-    background-color: black;
+    background-color: silver;
 }
 
 .navbar {
@@ -26,4 +26,8 @@
 
 .navbar {
     transition: all .5s ease 0s;
+}
+
+.footer {
+    color: azure;
 }
