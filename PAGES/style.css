@@ -22,11 +22,10 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    background:
 }
 
 .navbar {
     transition: all .5s ease 0s;
     background: #1abc9c;
-    
+
 }
