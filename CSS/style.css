@@ -19,10 +19,15 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: relative;
+    position:static;
     text-align: center;
-    text-transform: uppercase;
-    text-decoration: solid;
+    text-transform:none;
+    text-decoration: none; 
+}
+
+.navbar {
+    background-color: black;
+    background-size:cover;
 }
 
 .lista {
@@ -31,10 +36,6 @@
     font-weight: bold;
     font-style: oblique;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.navbar {
-    transition: all .5s ease 0s;
 }
 
 .footer {
