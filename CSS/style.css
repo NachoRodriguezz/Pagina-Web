@@ -11,8 +11,8 @@
 }
 
 .fondo {
-/*     background-image: url("IMG/edificios.png"); */
-    background-color: silver;
+    background-image: url("../asset/IMG/edificios.png");
+    background-size: cover;
 }
 
 .navbar {
@@ -22,6 +22,15 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: solid;
+}
+
+.lista {
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
