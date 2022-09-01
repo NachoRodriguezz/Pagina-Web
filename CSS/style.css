@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+*{
+    margin: 0;
+}
+
 .contacto {
     background-color: black;
     color: aqua;
@@ -6,4 +13,38 @@
 
 * {
     font-family: 'Roboto Slab', serif;
+}
+
+.flex-contein{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.article-faq{
+    background-color: black;
+    color: azure;
+    padding: 10%;
+    border: 20%;
+    margin: auto red ;
+}
+
+header nav{
+    background-color: rgb(145, 34, 34);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2em;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    flex:auto;
 }
