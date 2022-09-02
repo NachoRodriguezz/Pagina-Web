@@ -3,12 +3,9 @@
 
 *{
     margin: 0;
-}
-
-.contacto {
-    background-color: black;
-    color: aqua;
-    padding: auto;
+    background-color: gray;
+    padding: 0;
+    color: aliceblue;
 }
 
 * {
@@ -33,7 +30,6 @@
 }
 
 header nav{
-    background-color: rgb(145, 34, 34);
     position: sticky;
     display: flex;
     flex-direction: row;
@@ -47,4 +43,17 @@ header nav ul{
     justify-content: space-between;
     align-items:center;
     flex:auto;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+h1{
+    background-color: rgb(77, 75, 75);
+    font-size: 35px;
+    width: 30%;
+    text-align: center;
 }
