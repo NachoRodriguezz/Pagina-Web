@@ -65,6 +65,9 @@ h1{
     background-color: rgb(77, 75, 75);
     font-size: 35px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 .ubicacion {
@@ -134,7 +137,7 @@ h1{
 .nosotros-text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 25px;
     margin: 35px 40px;
 }
