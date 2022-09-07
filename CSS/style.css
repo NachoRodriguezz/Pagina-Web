@@ -17,15 +17,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 120px;
+    gap: 80px;
     margin: 50px 0px;
+}
+
+.FAQ{
+    font-size: 35PX;
+    color: black;
 }
 
 .article-faq{
     color: azure;
-    padding: 10%;
-    border: 20%;
-    margin: auto red ;
+    padding: 5%;
+    border: 10%;
+}
+
+.footer{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
 }
 
 header nav{
@@ -68,7 +79,24 @@ h1{
     grid-template-rows: 5em 30em 6em;
 }
 
+.inicio {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 40px 50px; 
+}
+
 .contacto-box{
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }
