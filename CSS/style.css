@@ -83,6 +83,7 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 35px;
+    text-align: center;
     margin: 40px 50px; 
 }
 
@@ -99,4 +100,41 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 25px;
+}
+
+.servicios {
+    color: black;
+    font-size: 30px;   
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.imagen-servicios{
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+}
+
+.servicios-texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 40px;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+
+.nosotros-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 35px 40px;
 }
