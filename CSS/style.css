@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     background-color: gray;
     padding: 0;
@@ -12,7 +11,7 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.flex-contein{
+.flex-contein {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -21,47 +20,47 @@
     margin: 50px 0px;
 }
 
-.FAQ{
+.FAQ {
     font-size: 35PX;
     color: black;
 }
 
-.article-faq{
+.article-faq {
     color: azure;
     padding: 5%;
     border: 10%;
 }
 
-.footer{
+.footer {
     color: black;
     display: flex;
     justify-content: center;
     margin: 10px 10px;
 }
 
-header nav{
+header nav {
     position: sticky;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 2em;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
-    align-items:center;
-    flex:auto;
+    align-items: center;
+    flex: auto;
     margin: 0 10px;
     list-style-type: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     background-color: rgb(77, 75, 75);
     font-size: 35px;
     text-align: center;
@@ -87,12 +86,13 @@ h1{
     justify-content: center;
     font-size: 35px;
     text-align: center;
-    margin: 40px 50px; 
+    margin: 40px 50px;
 }
 
-.contacto-box{
+.contacto-box {
     display: flex;
     justify-content: center;
+    text-align: center;
     border: black 3px solid;
     margin-left: auto;
     margin-right: auto;
@@ -107,19 +107,19 @@ h1{
 
 .servicios {
     color: black;
-    font-size: 30px;   
+    font-size: 30px;
     display: flex;
     justify-content: center;
     margin: 30px;
 }
 
-.imagen-servicios{
+.imagen-servicios {
     display: flex;
     justify-content: center;
     margin: 40px 40px;
 }
 
-.servicios-texto{
+.servicios-texto {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -127,7 +127,7 @@ h1{
     margin: 40px 40px;
 }
 
-.nosotros{
+.nosotros {
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -140,4 +140,16 @@ h1{
     text-align: center;
     font-size: 25px;
     margin: 35px 40px;
+}
+
+@media screen and(max-width:420px) {
+
+}
+
+@media screen and(min-width:421px) and (max-width: 1199px) {
+
+}
+
+@media screen and(min-width:1200px) {
+
 }
