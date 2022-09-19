@@ -169,8 +169,8 @@ h1 {
 .wpp-fixed {
     background-color:  rgb(77, 75, 75);
     border-radius: 80%;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     position: fixed;
     bottom: 1em;
     right: 1em;
