@@ -33,9 +33,6 @@
 
 .footer {
     color: black;
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px;
 }
 
 header nav {
@@ -170,11 +167,10 @@ h1 {
 }
 
 .wpp-fixed {
-    background: radial-gradient(#F25E3D ,#A65746);
-    color: f2f2f2;
-    border-radius: 50%;
-    width: 3em;
-    height: 3em;
+    background-color:  rgb(77, 75, 75);
+    border-radius: 80%;
+    width: 4em;
+    height: 4em;
     position: fixed;
     bottom: 1em;
     right: 1em;
@@ -185,6 +181,4 @@ h1 {
     animation-delay: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
-    animation-dalay: 10s;
 }
