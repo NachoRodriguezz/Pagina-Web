@@ -16,9 +16,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     gap: 80px;
     margin: 50px 0px;
+    border: black 2px solid;
 }
+/* 
+.primer-FAQ{
+    border: black 2px solid;
+}
+
+ */
 
 .FAQ {
     font-size: 35PX;
