@@ -2,11 +2,9 @@
 
 * {
     margin: 0;
-    background-color: gray;
     padding: 0;
-    color: aliceblue;
-}
-
+    color: black;
+} 
 * {
     font-family: 'Roboto Slab', serif;
 }
@@ -21,12 +19,6 @@
     margin: 50px 0px;
     border: black 2px solid;
 }
-/* 
-.primer-FAQ{
-    border: black 2px solid;
-}
-
- */
 
 .FAQ {
     font-size: 35PX;
@@ -34,9 +26,9 @@
 }
 
 .article-faq {
-    color: azure;
     padding: 5%;
     border: 10%;
+    color:black;
 }
 
 .footer {
@@ -44,6 +36,7 @@
 }
 
 header nav {
+    color: black;
     background-color:rgb(77, 75, 75);
     position: sticky;
     display: flex;
@@ -66,6 +59,7 @@ header nav ul {
 header nav ul li a {
     background-color:rgb(77, 75, 75);
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -78,8 +72,8 @@ h1 {
 }
 
 .ubicacion {
-    background-color: rgb(77, 75, 75);
-    font-size: 25px;
+/*     background-color: rgb(77, 75, 75);
+ */    font-size: 30px;
     text-align: center;
 }
 
@@ -180,8 +174,8 @@ h1 {
 .wpp-fixed {
     background-color:  rgb(77, 75, 75);
     border-radius: 80%;
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     position: fixed;
     bottom: 1em;
     right: 1em;
