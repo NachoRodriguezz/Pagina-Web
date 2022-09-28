@@ -10,32 +10,7 @@
 * {
     font-family: 'Roboto Slab', serif;
 }
-
-.flex-contein {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    gap: 80px;
-    margin: 50px 0px;
-    border: black 2px solid;
-}
-
-.FAQ {
-    font-size: 35PX;
-    color: black;
-}
-
-.article-faq {
-    padding: 5%;
-    border: 10%;
-    color: black;
-}
-
-.footer {
-    color: black;
-}
+/* header de todas las paginas*/
 
 header nav {
     color: black;
@@ -73,6 +48,47 @@ h1 {
     width: auto;
 }
 
+/* Preguntas frecuentes */
+
+.article-faq {
+    padding: 5%;
+    border: 10%;
+    color: black;
+}
+
+.flex-contein {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 2rem;
+}
+
+.FAQ {
+    font-size: 35PX;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primer-FAQ {
+    background-color: rgb(69, 147, 188);
+    font-size: 15px;
+    width: 100%;
+    gap: 80px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15,15,15, .5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    color: black;
+}
+
 .ubicacion {
     background-color: rgb(69, 147, 188);
     font-size: 30px;
@@ -91,25 +107,28 @@ h1 {
 .inicio {
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     margin: 40px 50px;
-}
-
-.contacto-box {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border: black 3px solid;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .contacto {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 25px;
+}
+
+.contacto-box {
+    background-color: rgb(69, 147, 188);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15,15,15, .5);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .servicios {
@@ -121,10 +140,16 @@ h1 {
 }
 
 .imagen-servicios {
-    display: grid;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.img-v2 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15,15,15, .5);
 }
 
 .servicios-texto {
@@ -138,7 +163,7 @@ h1 {
 .nosotros {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     margin: 30px;
 }
@@ -147,15 +172,28 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: 35px 40px;
 }
 
-@media screen and(max-width:420px) {
-    .imagen-servicios {
-        max-width: 25%;
-    }
+.wpp-fixed {
+    background-color: rgb(69, 147, 188);
+    border-radius: 80%;
+    width: 4em;
+    height: 4em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: flex;
+    align-items: center;
+    animation-name: moverBoton;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+@media (max-width:420px) {}
 
 @media screen and(min-width:421px) and (max-width: 1199px) {}
 
@@ -177,21 +215,4 @@ h1 {
     100% {
         transform: scale(1, 1);
     }
-}
-
-.wpp-fixed {
-    background-color: rgb(69, 147, 188);
-    border-radius: 80%;
-    width: 4em;
-    height: 4em;
-    position: fixed;
-    bottom: 1em;
-    right: 1em;
-    display: flex;
-    align-items: center;
-    animation-name: moverBoton;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
