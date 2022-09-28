@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     color: black;
+    box-sizing: border-box;
 }
 
 * {
@@ -42,7 +43,7 @@ header nav {
     position: sticky;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between 2rem;
     padding: 2em;
 }
 
@@ -65,11 +66,11 @@ header nav ul li a {
 
 h1 {
     background-color: rgb(69, 147, 188);
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: auto
+    width: auto;
 }
 
 .ubicacion {
@@ -113,24 +114,25 @@ h1 {
 
 .servicios {
     color: black;
-    font-size: 30px;
+    font-size: 20px auto;
     display: flex;
     justify-content: center;
     margin: 30px;
 }
 
 .imagen-servicios {
-    display: flex;
+    display: grid;
     justify-content: center;
-    margin: 40px 40px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .servicios-texto {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
-    margin: 40px 40px;
+    font-size: 20px;
+    margin: 30px 30px;
 }
 
 .nosotros {
@@ -149,7 +151,11 @@ h1 {
     margin: 35px 40px;
 }
 
-@media screen and(max-width:420px) {}
+@media screen and(max-width:420px) {
+    .imagen-servicios {
+        max-width: 25%;
+    }
+}
 
 @media screen and(min-width:421px) and (max-width: 1199px) {}
 
